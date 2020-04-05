@@ -13,5 +13,12 @@ class Labyrinthe:
     def __init__(self):
         """Méthode init"""
 
+    def generate(self):
+        "chargement du fichier map.py"
+        with open("map.py", "r") as file:
+        """ Placement des objets sur la carte ?"""
+
+
+
     def display
         """Methode pour l'affichage de l'ecran qui va contenir la structure et la positions"""
