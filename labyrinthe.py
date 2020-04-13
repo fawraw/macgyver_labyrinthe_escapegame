@@ -16,7 +16,14 @@ class Labyrinthe:
     def generate(self):
         "chargement du fichier map.py"
         with open("map.py", "r") as file:
-        """ Placement des objets sur la carte ?"""
+            for line in file:
+                line_map = []
+                structure_map = []
+                for letter in line:
+                    if letter !="\n":
+                        line_map.append(letter)
+                        structure_map.append(line_map)
+
 
 
 
